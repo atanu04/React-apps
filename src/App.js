@@ -1,10 +1,10 @@
 import React from "react";
 
-import Menu from "./projects/menu";
+import Reviews from "./projects/reviews";
 function App() {
   return (
     <div>
-      <Menu />
+      <Reviews />
     </div>
   );
 }
