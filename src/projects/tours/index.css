@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.centreitem {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Tours {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.Loading {
+  text-align: center;
+  padding: 20%;
+}
+.title {
+  text-align: center;
+  margin: 2rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+.underline {
+  width: 10rem;
+  height: 0.5rem;
+  background-color: cadetblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Tour {
+  margin: 2rem;
+  background-color: rgb(145, 224, 255);
+  box-shadow: 2px 2px 5px 5px rgb(134, 134, 64);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.Tour:hover {
+  background-color: rgb(6, 209, 209);
+  box-shadow: 4px 4px 7px 7px rgb(65, 65, 30);
+}
+.Tour img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  padding: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem;
+}
+.tourPrice {
+  background-color: rgb(15, 39, 83);
+  color: rgb(160, 170, 226);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+}
+.tourInfo {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: rgb(46, 2, 2);
+  font-style: oblique;
+}
+.read {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(10, 61, 109);
+}
+.btn {
+  width: auto;
+  height: 2.5rem;
+  padding: 0.25rem;
+  background-color: cornflowerblue;
+  margin: 1rem;
+  border: solid 3px rgb(49, 74, 119);
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(39, 3, 73);
+  font-weight: bold;
+  cursor: pointer;
+}
