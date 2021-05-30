@@ -1,6 +1,6 @@
 import React from "react";
 
-import Reviews from "./projects/reviews";
+import Reviews from "./projects/grocery";
 function App() {
   return (
     <div>
